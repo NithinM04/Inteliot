@@ -1,0 +1,49 @@
+/* Inside the chat bar — compact circular mic button */
+.voice-recorder-button {
+  background: linear-gradient(135deg, #8338ec, var(--accent-secondary));
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(131, 56, 236, 0.35);
+  flex-shrink: 0;
+}
+
+.voice-recorder-button:hover:not(:disabled) {
+  transform: scale(1.08);
+  box-shadow: 0 0 18px rgba(131, 56, 236, 0.55);
+}
+
+.voice-recorder-button:active:not(:disabled) {
+  transform: scale(0.93);
+}
+
+.voice-recorder-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.voice-recorder-button.listening {
+  background: linear-gradient(135deg, var(--accent-secondary), #ff4e88);
+  box-shadow: 0 0 16px rgba(255, 0, 110, 0.55);
+  animation: listening-pulse 1s ease-in-out infinite;
+}
+
+.voice-recorder-unsupported {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+@keyframes listening-pulse {
+  0%, 100% { box-shadow: 0 0 14px rgba(255, 0, 110, 0.5); }
+  50%       { box-shadow: 0 0 28px rgba(255, 0, 110, 0.75); }
+}

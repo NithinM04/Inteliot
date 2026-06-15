@@ -1,0 +1,11 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+python-dotenv==1.0.0
+transformers==4.41.2
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2
+safetensors==0.4.3
+numpy==1.26.4
+
+# MQTT
+paho-mqtt==1.6.1

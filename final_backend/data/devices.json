@@ -1,0 +1,92 @@
+[
+  {
+    "id": "6fbfc4a6-f751-40f9-9fc5-fbb9f7071107",
+    "name": "light",
+    "location": "living room",
+    "status": "off"
+  },
+  {
+    "id": "5310d576-ec7f-40ac-9796-c3279b954d6e",
+    "name": "light",
+    "location": "bathroom",
+    "status": "off"
+  },
+  {
+    "id": "58b682eb-b9d1-43bf-affb-ca143e13e711",
+    "name": "light",
+    "location": "kitchen",
+    "status": "off"
+  },
+  {
+    "id": "e1166f6d-3721-46f6-a1bf-83a9d0af82e1",
+    "name": "fan",
+    "location": "living room",
+    "status": "off"
+  },
+  {
+    "id": "5432187c-a8fc-4385-ba7b-c40fa1ea4533",
+    "name": "geasor",
+    "location": "bathroom",
+    "status": "off"
+  },
+  {
+    "id": "52574f4d-df10-4d4a-b4f5-b64f1c3e2f8f",
+    "name": "exhaust fan",
+    "location": "kitchen",
+    "status": "off"
+  },
+  {
+    "id": "20f13ed1-f663-419f-9cf4-aec2331e6939",
+    "name": "TV",
+    "location": "living room",
+    "status": "off"
+  },
+  {
+    "id": "eafc8014-913b-4efa-968d-19cfbb85e856",
+    "name": "air purifier",
+    "location": "kitchen",
+    "status": "off"
+  },
+  {
+    "id": "d7661e4c-0241-4328-a3cd-3d7b7621de9b",
+    "name": "light",
+    "location": "Bedroom",
+    "status": "off"
+  },
+  {
+    "id": "09c024b5-ba6f-45bc-a4ae-56ba12606b47",
+    "name": "fan",
+    "location": "Bedroom",
+    "status": "off"
+  },
+  {
+    "id": "0d990fd0-dadb-418b-a4d6-9e986fd941d8",
+    "name": "Air Conditioner",
+    "location": "Bedroom",
+    "status": "off"
+  },
+  {
+    "id": "a593ad82-9b75-4461-9123-c0e37b3d01b7",
+    "name": "light",
+    "location": "Pooja room",
+    "status": "off"
+  },
+  {
+    "id": "4b32f4f4-455d-407c-a55a-e10602e7dc24",
+    "name": "light",
+    "location": "parking area",
+    "status": "off"
+  },
+  {
+    "id": "a48b3765-4c0e-455d-9b3c-5aa51b69bc13",
+    "name": "watermotor",
+    "location": "unkown",
+    "status": "off"
+  },
+  {
+    "id": "c89c3bff-c594-4e51-aaef-dd4f43eecafa",
+    "name": "geyser",
+    "location": "bathroom",
+    "status": "on"
+  }
+]
